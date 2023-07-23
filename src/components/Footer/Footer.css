@@ -80,13 +80,15 @@
 		display: flex;
 		font-size: 18px;
 		padding-bottom: 20px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	
 	.company-container {
-		margin-right: 9%;
+		margin-right: 100px;
 	}
 	
-	footer__title {
+	.footer__title {
 		font-size: 15px;
 	}
 	
@@ -98,11 +100,12 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		white-space: nowrap;
-		gap: 10px 11%;
+		gap: 9px 0;
 	}
 	
 	.menu__item {
-		font-size: 15.3px;
+		font-size: 16px;
+		max-width: 195px;
 	}
 	
 	.footer-container {
@@ -112,7 +115,7 @@
 	
 	.contacts {
 		margin-bottom: 69px;
-		font-size: 17px;
+		font-size: 16px;
 	}
 	
 	.contacts__src-image {
