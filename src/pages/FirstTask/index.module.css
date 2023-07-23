@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.digit_picker__wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.digit_group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.digit_group__title {
+    text-align: center;
+}
+
+.button {
+}
+
+.result {
+}

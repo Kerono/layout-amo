@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+.App {
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #0E1014;
+	line-height: normal;
+}
+
+@media (min-width: 1440px) {
+	.App {
+		background: top center / cover no-repeat url('../../assets/bg-desktop.jpg');
+	}
+}
