@@ -73,9 +73,10 @@
 
 @media (min-width : 1440px) {
 	.footer {
-		padding-left: 147px;
-		padding-right: 147px;
+		max-width: 1140px;
 		margin-top: 54px;
+		margin-left: auto;
+		margin-right: auto;
 		display: flex;
 		font-size: 18px;
 		padding-bottom: 20px;
